@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'FXShareModule_Example' do
+  pod 'FXShareModule', :path => '../'
+
+  target 'FXShareModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
