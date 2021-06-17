@@ -1,9 +1,14 @@
-use_frameworks!
+source 'git@gitlab.fenxianglife.com:component/specs.git'
+source 'https://cdn.cocoapods.org/'
 
-platform :ios, '9.0'
+#忽略pods警告
+inhibit_all_warnings!
+platform :ios, "9.0"
+use_frameworks!
 
 target 'FXShareModule_Example' do
   pod 'FXShareModule', :path => '../'
+  pod 'SnapKit', '4.2.0'
 
   target 'FXShareModule_Tests' do
     inherit! :search_paths

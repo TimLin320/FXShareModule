@@ -1,0 +1,6 @@
+framework module AKHud {
+  umbrella header "AKHud-umbrella.h"
+
+  export *
+  module * { export * }
+}

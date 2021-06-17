@@ -1,0 +1,39 @@
+{
+  "name": "FXShareModule",
+  "version": "0.1.0",
+  "summary": "FXShareModule.",
+  "description": "FXShareModule.",
+  "homepage": "https://github.com/TimLin320/FXShareModule.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "linmeng320@gmail.com": "linmeng320@163.com"
+  },
+  "source": {
+    "git": "https://github.com/TimLin320/FXShareModule.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.0",
+  "dependencies": {
+    "AKExts": [
+
+    ],
+    "AKHud": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "WX": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "static_framework": true,
+  "source_files": "FXShareModule/Classes/**/*",
+  "swift_version": "5.0"
+}

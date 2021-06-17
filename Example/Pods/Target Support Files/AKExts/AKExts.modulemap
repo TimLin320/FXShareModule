@@ -1,0 +1,6 @@
+framework module AKExts {
+  umbrella header "AKExts-umbrella.h"
+
+  export *
+  module * { export * }
+}

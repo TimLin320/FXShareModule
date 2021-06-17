@@ -7,18 +7,33 @@
 //
 
 import UIKit
+import FXShareModule
+import AKHud
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, FXShare {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = .red
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func shareAction() {
+//        guard let image = UIImage.init(named: "common_placeholder_search") else {
+//            AKHud.showToast("图片加载失败")
+//            return
+//        }
+//
+//        beginShare(images: [image], copyText: "分享文案", types: [.friend, .circle, .album]) { result in
+//            switch result {
+//            case .succeed:
+//                AKHud.showToast("分享成功")
+//            default: break
+//            }
+//        }
     }
-
+    
+    func shouldBeginShare() -> Bool {
+        return true
+    }
 }
 

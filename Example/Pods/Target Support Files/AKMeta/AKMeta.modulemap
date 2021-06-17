@@ -1,0 +1,6 @@
+framework module AKMeta {
+  umbrella header "AKMeta-umbrella.h"
+
+  export *
+  module * { export * }
+}
